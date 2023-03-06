@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.icon-size {
+  font-size: 50px;
+}
+.hide {
+  display: none;
+}
+.text-ct {
+  text-align: center;
+}
+/* banner */
+.banner {
+  filter: brightness(60%);
+}
+.name {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: auto;
+  padding-top: 100px;
+}
+/* nav */
+.nav {
+  width: 85%;
+}
+.nav-item {
+  list-style-type: none;
+}
+li a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+i {
+  color: blue;
+  margin-right: 10px;
+}
+
+/* thong tin ca nhan */
+.target {
+  padding: 52.4px 52.4px 0px 52.4px;
+  background: #d7d6d6;
+}
+.personal-info {
+  padding: 52.4px 52.4px 0px 52.4px;
+  background: #c8c8c8;
+}
+/* thong tin nghe nghiep */
+.ttnn {
+  width: 90%;
+}
+/* chung chi */
+.backround {
+  background-color: #f0efef;
+}
+.text-h1 {
+  font-size: 30px;
+}
+/* an thong tin nghe nghiep */
+.dropbtn {
+  border: none;
+  cursor: pointer;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+}
+
+/* digital-cv.html */
+.grid-cv .card:nth-child(1) {
+  grid-area: card1;
+}
+
+.grid-cv .card:nth-child(2) {
+  grid-area: card2;
+}
+
+.grid-cv .card:nth-child(3) {
+  grid-area: card3;
+}
+
+.grid-cv .card:nth-child(4) {
+  grid-area: card4;
+}
+
+.grid-cv .card:nth-child(5) {
+  grid-area: card5;
+}
+.grid-cv {
+  display: grid;
+  grid-template-columns: 49% 24% 24%;
+  row-gap: 1.3rem;
+  column-gap: 1.5%;
+  grid-template-areas:
+    "card1 card3 card5"
+    "card2 card4 card5";
+}
+.grid-box {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.grid-box2 {
+  display: grid;
+  grid-template-columns: 49% 49%;
+  column-gap: 2%;
+}
+
+.border-r {
+  border-right: 1px solid orange;
+}
+.padb {
+  padding-bottom: 54px;
+}

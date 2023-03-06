@@ -1,0 +1,24 @@
+@media only screen and (max-width: 768px) {
+  body {
+    max-width: 767px;
+  }
+  .name {
+    padding-top: 50px;
+  }
+  .text-ct {
+    text-align: justify;
+  }
+  .text-h1 {
+    font-size: 20px;
+  }
+  .border-r {
+    border-bottom: 1px solid orange;
+    border-right: none;
+  }
+  .pad {
+    padding-top: 54px;
+  }
+  .padb {
+    padding-bottom: none;
+  }
+}
